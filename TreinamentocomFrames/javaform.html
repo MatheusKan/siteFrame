@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Java Script</title>
+</head>
+
+<body background="imagens/backgroundforms.avif">
+    <p align="justify">
+        <center>
+
+            <font face="Comic Sans MS" color="orange">
+                <form action="resposta.html" method="post">
+                    <fieldset align="right">
+                        <h1>Solicitação da Matrícula para Java</h1>
+                        <legend > Dados pessoais </legend>
+                        <center><p><label for="nome">Nome:</label>
+                            <input type="text" minlength="3" required placeholder="Digite o seu nome">
+                        </p>
+                        <p><label for="tel">Telefone:</label>
+                            <input type="tel" minlength="9" maxlength="11" required placeholder="Digite o seu telefone">
+                        </p>
+                        <p><label for="email">E-mail:</label>
+                            <input type="email" required placeholder="Digite o seu e-mail">
+                        </p>
+                        <p>
+                            <table>
+                            <tr><th><label>
+                                <input type="radio" name="sexo" value="Masculino" required> Masculino
+                            </label></th>
+                        </p>
+                        <p>
+                            <th><label>
+                                <input type="radio" name="sexo" value="Feminino" required> Feminino
+                            </label></th>
+                        </p></tr></table>
+                        <p>
+                            <label>
+                                <input type="date" required max="2005-12-31" placeholder="Digite sua data de nascimento">
+                            </label>
+                        </p>
+                        
+                            <option value="sp">São Paulo</option>
+                            <option value="gru">Guarulhos-Centro</option>
+                            <option value="pimentas">Pimentas</option>
+                            <option value="santos">Santos Drummont</option>
+                            <option value="paraventi">Paraventi</option>
+                        </select><br>
+                        <input type="reset" value="resetar">
+                        <input type="submit" value="Enviar"></center>
+                    </fieldset>
+                    
+                </form>
+                <a href="principal.html"><button>Voltar para página principal</button></a>
+            </font>
+        </center>
+    </p>
+</body>
+
+</html>
